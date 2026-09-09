@@ -23,6 +23,12 @@
             Console.WriteLine(book.copiesInStock);
             #endregion
 
+            #region Question 03
+            // Question 03
+            book.Title = "Clean Code";
+            Console.WriteLine(book.Title);
+            #endregion
+
         }
     }
 }
