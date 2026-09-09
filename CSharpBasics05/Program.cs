@@ -56,6 +56,13 @@
             string genreName = genre2.ToString();
             Console.WriteLine(genreName);
             #endregion
+
+            #region Question 08
+            // Question 08
+            string genreText = "Science";
+            Genre genre3 = Enum.Parse<Genre>(genreText);
+            Console.WriteLine(genre3);
+            #endregion
         }
     }
 }
