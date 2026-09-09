@@ -49,6 +49,13 @@
             Genre genre = (Genre)genreNumber;
             Console.WriteLine(genre);
             #endregion
+
+            #region Question 07
+            // Question 07
+            Genre genre2 = Genre.Fiction;
+            string genreName = genre2.ToString();
+            Console.WriteLine(genreName);
+            #endregion
         }
     }
 }
