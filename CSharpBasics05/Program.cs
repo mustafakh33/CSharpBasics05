@@ -14,6 +14,15 @@
             //Console.WriteLine(book.password); // Error
             #endregion
 
+            #region Question 02
+            // Question 02
+            // Answer:
+            // Yes, it compiles because the field is internal.
+            // An internal member can be accessed from anywhere within the same assembly.
+            // Since Main is in the same assembly as the Book class, copiesInStock can be accessed.
+            Console.WriteLine(book.copiesInStock);
+            #endregion
+
         }
     }
 }
