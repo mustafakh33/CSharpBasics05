@@ -29,6 +29,13 @@
             Console.WriteLine(book.Title);
             #endregion
 
+            #region Question 04
+            // Question 04
+            book.Genre = Genre.Science;
+
+            Console.WriteLine(book.Genre);
+            #endregion
+
         }
     }
 }
