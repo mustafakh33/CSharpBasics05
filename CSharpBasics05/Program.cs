@@ -63,6 +63,20 @@
             Genre genre3 = Enum.Parse<Genre>(genreText);
             Console.WriteLine(genre3);
             #endregion
+
+            #region Question 09
+            // Question 09
+            string genreText2 = "Mystery";
+
+            if (Enum.TryParse<Genre>(genreText2, out Genre genre4))
+            {
+                Console.WriteLine(genre4);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+            #endregion
         }
     }
 }
