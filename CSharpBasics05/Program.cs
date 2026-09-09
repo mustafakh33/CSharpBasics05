@@ -43,6 +43,12 @@
             Console.WriteLine((int)Genre.Science);
             #endregion
 
+            #region Question 06
+            // Question 06
+            int genreNumber = 1;
+            Genre genre = (Genre)genreNumber;
+            Console.WriteLine(genre);
+            #endregion
         }
     }
 }
